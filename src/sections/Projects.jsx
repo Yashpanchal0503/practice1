@@ -1,5 +1,5 @@
 import { myProjects } from "../constants"
-import Project from "../components/project"
+import Project from "../components/Project";
 import { motion, useMotionValue ,useSpring} from 'framer-motion';
 import { useState } from "react";
 

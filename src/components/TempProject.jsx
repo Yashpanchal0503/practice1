@@ -8,7 +8,7 @@ const Project = ({ title, description, subDescription, href, image, tags,setPrev
       <div 
         className="flex flex-wrap items-center justify-between py-10 space-y-14 sm:space-y-0"
         onMouseEnter={()=>setPreview(image)}
-        onmouseleave={()=>setPreview(null)}
+        onMouseLeave={()=>setPreview(null)}
         
     >
         <div>
