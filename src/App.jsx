@@ -11,10 +11,6 @@ const App = () => {
       <Hero/>
       <About/>
       <Projects/>
-      <section className='min-h-screen'></section>
-      <section className='min-h-screen'></section>
-      <section className='min-h-screen'></section>
-      <section className='min-h-screen'></section>
     </div>
   );
 };
