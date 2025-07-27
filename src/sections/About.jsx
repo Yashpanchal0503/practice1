@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import Card from "../components/Card";
-import { Globe } from "../components/Globe";
+import { Globe } from "../components/globes";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { Frameworks } from "../components/Frameworks";
 
@@ -32,7 +32,11 @@ const About = () => {
             </div>
             {/* Grid 2 */}
             <div className="grid-default-color grid-2">
-                <div ref= {grid2Container} className="flex items-center justify-center w-full h-full">
+                <div
+                        ref={grid2Container}
+                        className="relative flex items-center justify-center w-full h-full"
+                >
+
                     <p className="flex items-end text-5xl text-gray-500">
                         CODE IS CRAFT
                     </p>
@@ -87,7 +91,9 @@ const About = () => {
                     </p>
                 </div>
                 <figure className="absolute left-[30%] top-[10%]">
-                    <Globe/>
+                    <div className="relative w-[15rem] h-[15rem]">
+                        <Globe/>
+                    </div>
                 </figure>
             </div>
             {/* Grid 4 */}
